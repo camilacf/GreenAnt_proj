@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html  ng-app="charts">
+  <title>GreenAnt Project</title>
+  <!-- Instalação de dependências -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script type="text/javascript" src="app.js"></script>  
+  <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body ng-controller="Ctrl">
+	<div id="header">
+		<h1>
+		<img src="logo.jpg" alt="Logo">
+		Bem vindo, ClienteX 
+		</h1>
+	</div>
+  <section>
+  <ul class="menu">
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="faturas.html">Faturas</a></li>
+	  <li><a href="medidores.html">Seus aparelhos</a></li>
+	  <li><a href="visao.html">Visao geral</a></li>
+   </ul>
+  </section>
+  <ul class="monthly" >
+	  <li ng-click="showMai()"><a href="">Maio</a></li>
+	  <li ng-click="showJun()"><a href="">Junho</a></li>
+	  <li ng-click="showJul()"><a href="">Julho</a></li>
+	  <li class="fixed"><a>...</a></li>
+	  <li ng-click="showPreview()"><a href="">Previsao</a></li>
+   </ul>
+   <div id="graph">
+   <highchart chart="{{CurrentChart}}"></highchart>
+   <div>
+ </body>
+
+</html>

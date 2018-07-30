@@ -1,0 +1,86 @@
+/* Put your css in here */
+#header{
+	background-color:rgb(93, 255, 95, 0.8); 
+	height:100px;
+}
+h1{
+	font-size:50px; 
+	font-family:arial; 
+	padding-left:10px; 
+	padding-top:10px;
+	color:#111;
+}
+img{
+	display:block;
+	height:80px; 
+	float:left; 
+	padding-right:180px;
+}
+img.num{
+	opacity: 0.7;
+	margin-top:0px;
+	height:480px;
+	margin-left:30%;
+}
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 50;
+    overflow: hidden;
+    background-color: #333;
+}
+ul.monthly{
+	position:absolute;
+	left:30%;
+	border: 50px;
+	list-style-type: none;
+    margin: 15px;
+	width:380px;
+    overflow: hidden;
+    background-color: #888;
+}
+li.fixed{
+	background-color: #111;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+table {
+	padding-bottom:50px;
+	margin-top:10px;
+	margin-left: 30%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+p{
+	margin-left: 30%;
+}
+select{
+	margin-left:10%;
+}
+h2{
+	margin-left:2%;
+}
+#graph{
+	margin-top:100px;
+}

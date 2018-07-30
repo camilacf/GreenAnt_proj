@@ -1,0 +1,13 @@
+﻿Algumas explicaçõs sobre o projeto:
+	- Criei uma história sobre o personagem/cliente que usará o site:
+		1. O cliente já está logado em sua própria conta;
+		2. Ele adquiriu seu primeiro medidor GreenAnt 3 meses atras;
+		3. Neste ultimo mes o cliente comprou outro medidor, para medir outros aparelhos;
+	- Adicionei, então, novos dados sobre o medidor A, aleatoriamente.
+	- Como, ainda assim, os dados eram poucos, realizei um calculo de media simples para fazer uma "previsao" de consumo do mes seguinte. Que pode ser calculada apenas com base nos gastos do medidor A.
+	
+Para rodar:
+	- Abra o projeto no Firefox, ou;
+	- Abre a pasta do projeto no seu terminal e digite:
+		$ npm install http-server -g
+		$ http-server
